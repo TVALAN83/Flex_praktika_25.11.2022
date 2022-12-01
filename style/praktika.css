@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+header {
+    max-width: 1200px;
+    min-height: 5400px;
+    margin: 0 auto;
+
+}
+
+.wrapper {
+    max-width: inherit;
+    min-height: 742px;
+}
+
+.wrapper_nav {
+    max-width: inherit;
+    min-height: 137px;
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 32px 49px 37px;
+}
+
+.nav_logo {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.nav_menu {
+    display: flex;
+    flex-basis: 497px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_menu a {
+    text-decoration: none;
+    /* position: relative; */
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+.nav_menu a ::after{
+    content:'';
+    position: absolute; 
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 4px;  
+    color: #FFFFFF;
+    /* background-image: linear-gradient(#13ADC7 0%,
+            #6978D1 66.67%,
+            #945DD6 100%); */
+transition: width .4s ease-out;
+}
+.nav_menu a :hover ::after{
+    left: 0;
+width: 100%;
+transition: width .4s;
+}
+
+
+.nav_icons {
+    display: flex;
+    flex-basis: 119px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper_text {
+    max-width: inherit;
+    min-height: 525px;
+}
+
+.wrapper_text h1 {
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 82.5 px;
+    color: #FFFFFF;
+    margin: 146px 320px 0 115px;
+}
+
+.wrapper_text p {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+    color: #BCBCBC;
+    margin: 67px 276px 0 115px;
+}
+
+.wrapper_text a {
+    display: inline-block;
+    text-decoration: none;
+    width: 280px;
+    height: 80px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 42px;
+    margin: 86px 805px 0 115px;
+    background-image: linear-gradient(#13ADC7 0%,
+            #6978D1 66.67%,
+            #945DD6 100%);
+    padding: 19px 64px 19px 63px;
+    border-radius: 83px;
+    transition: 0,7s;
+}
+
+.wrapper_text a:hover {
+transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu {
+    flex-basis: 497px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    line-height: 36px;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+.project::after {
+    display: block;
+    content: '';
+    height: 4px;
+    width: 97px;
+    background-image: linear-gradient(#13ADC7, #6978D1, #945DD6);
+    transition: all 0.3s;
+}
+
+.technologies::after {
+    display: block;
+    content: '';
+    height: 4px;
+    width: 162px;
+    background-image: linear-gradient(#13ADC7, #6978D1, #945DD6);
+}
+
+.about_me::after {
+    display: block;
+    content: '';
+    height: 4px;
+    width: 119px;
+    background-image: linear-gradient(#13ADC7, #6978D1, #945DD6);
+}
+
+
+.icons {
+    flex-basis: 119px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.union {
+    background-color: white;
+    max-width: 25px;
+    max-height: 25px;
+}
+
+.icon {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.container {
+    height: 758px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+/* .hero_img{
+    width: 758px;
+    height: inherit;
+    display: flex;
+    position: absolute ;
+    top: 0;
+    right: 0;
+   
+} */
+
+
+
+
+/* .content{
+    max-width:809px;
+    min-height: 459px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; 
+}
+.content h2{
+    color: white;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 82.5px;
+    display: flex;
+}
+.content p{
+    color:#BCBCBC ;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    display: flex;
+}
+.begin{
+    background-image: linear-gradient(#13ADC7,#6978D1,#945DD6);
+    display: block;
+    width: 153px;
+    color: white;
+    border-radius: 20px;
+    height: 42px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    line-height: 42px;
+    margin-top: 25px;
+} */
